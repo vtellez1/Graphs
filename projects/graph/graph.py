@@ -198,6 +198,7 @@ class Graph:
         visited.add(starting_vertex)
         path = path + [starting_vertex]
 
+
         #If starting ver/current vert is destination ver, return path
         if starting_vertex == destination_vertex:
             return path
