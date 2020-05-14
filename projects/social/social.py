@@ -164,7 +164,16 @@ Questions
 1.) To create 100 users with an average of 10 friends each, 
 how many times would you need to call add_friendship()? Why?
 
+Answer: 500. In our function, we call add_friendship based on the number of users * avrg friends and divide by 2.
+(100 * 10) // 2 == 500
+
 2.) If you create 1000 users with an average of 5 random friends each, 
 what percentage of other users will be in a particular user's extended social network? 
 What is the average degree of separation between a user and those in his/her extended network?
+
+Answer: The percentage would be increasingly smaller. For 10 users with avrg of 2 friends,
+ we usually see 80-90% of other users in a particular user's extended social network 
+ (or 1-2 people not thier extended network). With 1000 users, we're increasing our users by times 100 and
+ only increasing amount of averg friends by +3. 
+
 """
